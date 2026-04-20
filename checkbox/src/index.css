@@ -1,4 +1,17 @@
 :root {
+--color-primary: #2C2C2C;
+--color-neutral:E3E3E3;
+--color-subtle: #FFFFF 0%;
+--color-background: #FFFFF;
+--color-primary-text: #0000;
+--color-secondary-text: #757575;
+--color-accent:#5B4FCF;
+--Text-Brand-On-Brand: #5B4FCF;
+--Border-Brand-Default: #5B4FCF;
+--Border-Neutral-Secondary: #5B4FCF;
+
+/*
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -24,11 +37,115 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  */
+
+    --cds-semantic-typography-body-link-font-family: AkkuratStd;
+    --cds-semantic-typography-body-link-font-size-lg: 1.125rem;
+    --cds-semantic-typography-body-link-font-size-md: 1rem;
+    --cds-semantic-typography-body-link-font-size-sm: 0.875rem;
+    --cds-semantic-typography-body-link-font-weight-bold: 600;
+    --cds-semantic-typography-body-link-font-weight-regular: 400;
+    --cds-semantic-typography-body-link-letter-spacing: 0px;
+    --cds-semantic-typography-body-link-line-height-lg: 1.4625rem;
+    --cds-semantic-typography-body-link-line-height-md: 1.3rem;
+    --cds-semantic-typography-body-link-line-height-sm: 1.1375rem;
+    --cds-semantic-typography-body-font-family: AkkuratStd;
+    --cds-semantic-typography-body-font-size-lg: 1.125rem;
+    --cds-semantic-typography-body-font-size-md: 1rem;
+    --cds-semantic-typography-body-font-size-sm: 0.875rem;
+    --cds-semantic-typography-body-font-weight-bold: 600;
+    --cds-semantic-typography-body-font-weight-regular: 400;
+    --cds-semantic-typography-body-letter-spacing: 0px;
+    --cds-semantic-typography-body-line-height-lg: 1.4625rem;
+    --cds-semantic-typography-body-line-height-md: 1.3rem;
+    --cds-semantic-typography-body-line-height-sm: 1.1375rem;
+    --cds-semantic-typography-display-font-family: Coop New;
+    --cds-semantic-typography-display-font-size-lg: 3rem;
+    --cds-semantic-typography-display-font-size-md: 2rem;
+    --cds-semantic-typography-display-font-size-sm: 1.5rem;
+    --cds-semantic-typography-display-font-size-xlg: 3.75rem;
+    --cds-semantic-typography-display-font-weight-black: 800;
+    --cds-semantic-typography-display-font-weight-bold: 600;
+    --cds-semantic-typography-display-font-weight-regular: 400;
+    --cds-semantic-typography-display-letter-spacing: 0px;
+    --cds-semantic-typography-display-line-height-lg: 3rem;
+    --cds-semantic-typography-display-line-height-md: 2rem;
+    --cds-semantic-typography-display-line-height-sm: 1.5rem;
+    --cds-semantic-typography-display-line-height-xlg: 3.75rem;
+    --cds-semantic-typography-header-font-family: AkkuratStd;
+    --cds-semantic-typography-header-font-size-lg: 1.5rem;
+    --cds-semantic-typography-header-font-size-md: 1.125rem;
+    --cds-semantic-typography-header-font-size-sm: 1rem;
+    --cds-semantic-typography-header-font-weight-bold: 600;
+    --cds-semantic-typography-header-font-weight-regular: 400;
+    --cds-semantic-typography-header-letter-spacing: 0px;
+    --cds-semantic-typography-header-line-height-lg: 1.8rem;
+    --cds-semantic-typography-header-line-height-md: 1.35rem;
+    --cds-semantic-typography-header-line-height-sm: 1.2rem;
+    --cds-semantic-typography-intro-font-family: AkkuratStd;
+    --cds-semantic-typography-intro-font-size-lg: 1.5rem;
+    --cds-semantic-typography-intro-font-size-md: 1.25rem;
+    --cds-semantic-typography-intro-font-size-sm: 1.125rem;
+    --cds-semantic-typography-intro-font-weight-regular: 400;
+    --cds-semantic-typography-intro-letter-spacing: 0px;
+    --cds-semantic-typography-intro-line-height-lg: 1.95rem;
+    --cds-semantic-typography-intro-line-height-md: 1.625rem;
+    --cds-semantic-typography-intro-line-height-sm: 1.4625rem;
+    --cds-semantic-typography-pricing-font-family: Coop New;
+    --cds-semantic-typography-pricing-font-size-2xlg: 3.75rem;
+    --cds-semantic-typography-pricing-font-size-lg: 2rem;
+    --cds-semantic-typography-pricing-font-size-md: 1.25rem;
+    --cds-semantic-typography-pricing-font-size-sm: 1rem;
+    --cds-semantic-typography-pricing-font-size-xlg: 3rem;
+    --cds-semantic-typography-pricing-font-size-xsm: 0.875rem;
+    --cds-semantic-typography-pricing-font-weight-bold: 800;
+    --cds-semantic-typography-pricing-letter-spacing: 0px;
+    --cds-semantic-typography-pricing-line-height-2xlg: 3.75rem;
+    --cds-semantic-typography-pricing-line-height-lg: 2rem;
+    --cds-semantic-typography-pricing-line-height-md: 1.25rem;
+    --cds-semantic-typography-pricing-line-height-sm: 1rem;
+    --cds-semantic-typography-pricing-line-height-xlg: 3rem;
+    --cds-semantic-typography-pricing-line-height-xsm: 0.875rem;
+    --cds-border-radius-2xsm: 4px;
+    --cds-border-radius-full: 9999999px;
+    --cds-border-radius-lg: 24px;
+    --cds-border-radius-md: 16px;
+    --cds-border-radius-none: 0px;
+    --cds-border-radius-sm: 12px;
+    --cds-border-radius-xlg: 40px;
+    --cds-border-radius-xsm: 8px;
+    --cds-border-width-default: 1px;
+    --cds-border-width-divider: 1px;
+    --cds-border-width-focus: 2px;
+    --cds-border-width-strong: 2px;
+    --cds-sizing-2xlg: 64px;
+    --cds-sizing-2xsm: 16px;
+    --cds-sizing-3xlg: 72px;
+    --cds-sizing-3xsm: 8px;
+    --cds-sizing-4xlg: 80px;
+    --cds-sizing-lg: 48px;
+    --cds-sizing-md: 40px;
+    --cds-sizing-sm: 32px;
+    --cds-sizing-xlg: 56px;
+    --cds-sizing-xsm: 24px;
+    --cds-spacing-2xlg: 48px;
+    --cds-spacing-2xsm: 4px;
+    --cds-spacing-3xlg: 56px;
+    --cds-spacing-3xsm: 2px;
+    --cds-spacing-4xlg: 64px;
+    --cds-spacing-lg: 24px;
+    --cds-spacing-md: 16px;
+    --cds-spacing-none: 0px;
+    --cds-spacing-sm: 12px;
+    --cds-spacing-xlg: 40px;
+    --cds-spacing-xsm: 8px;
+    --cds-utility-touch-target-min: 24px;
 
   @media (max-width: 1024px) {
     font-size: 16px;
   }
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
